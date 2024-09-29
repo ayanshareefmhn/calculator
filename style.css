@@ -1,0 +1,445 @@
+
+    body{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 150px;
+        background: url(./ranger-4df6c1b6.png);
+    }
+    .container{
+        height: 250px;
+        width: 180px;
+        background-color: #1c1c1c;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10%;
+        position: absolute;
+        justify-content: center;
+        align-items: center ;
+        left: 600px;
+    }
+    .heading{
+        position: relative;
+        left: 650px;
+        margin-bottom: 40px;
+        font-family: sans-serif;
+        font-size: larger;
+        color: #E8B86D;
+    }
+    h1{
+        color: white;
+        text-align: center;
+        font-size: large;
+    }
+    .function{
+        height: 40px;
+        width: 180px;
+        background-color: #1c1c1c;
+        border-top-left-radius: 10px ;
+        border-top-right-radius: 10px;
+        position: absolute;
+        top: 5px;
+        color: white;
+    }
+    input{
+        width: 175px;
+        border-top-left-radius: 10px ;
+        border-top-right-radius: 10px;
+        height: 33px;
+        border: none;
+        color: white;
+        background-color: #1c1c1c;
+    }
+    .del button{
+        height: 40px;
+        width: 40px;
+        background-color: #505050 ;
+        position: absolute;
+        top: 40px ;
+        left: 5px;
+        border-radius: 50%;
+        justify-content: center;
+        display: flex;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+        position: absolute;
+        top: 40px;
+    }
+    .ac button {
+        height: 40px;
+        width: 40px;
+        background-color: #505050 ;
+        position: absolute;
+        top: 40px ;
+        left: 47px;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+    }
+    .modulus button{
+        height: 40px;
+        width: 40px;
+        background-color: #505050 ;
+        position: absolute;
+        top: 40px ;
+        left: 88px;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+    }
+    .divide button {
+        height: 40px;
+        width: 40px;
+        background-color: #ff9500 ;
+        position: absolute;
+        top: 40px ;
+        left: 130px;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+        font-size: larger;
+    }
+    .num7 button {
+        height: 40px;
+        width: 40px;
+        background-color: #505050 ;
+        position: absolute;
+        top: 83px ;
+        left: 5px;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+    }
+    .num8 button{
+        height: 40px;
+        width: 40px;
+        background-color: #505050 ;
+        position: absolute;
+        top: 83px ;
+        left: 47px;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+    }
+    .num9 button{
+        height: 40px;
+        width: 40px;
+        background-color: #505050 ;
+        position: absolute;
+        top: 83px ;
+        left: 88px;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+    }
+    .mul button{
+        height: 40px;
+        width: 40px;
+        background-color: #ff9500 ;
+        position: absolute;
+        top: 83px ;
+        left: 130px;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+    }
+    .num4 button{
+        height: 40px;
+        width: 40px;
+        background-color: #505050 ;
+        position: absolute;
+        top: 125px ;
+        left: 5px;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+    }
+    .num5 button{
+        height: 40px;
+        width: 40px;
+        background-color: #505050 ;
+        position: absolute;
+        top: 125px ;
+        left: 47px;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+    }
+    .num6 button{
+        height: 40px;
+        width: 40px;
+        background-color: #505050 ;
+        position: absolute;
+        top: 125px ;
+        left: 88px;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+    }
+    .num1 button{
+        height: 40px;
+        width: 40px;
+        background-color: #505050 ;
+        position: absolute;
+        top: 168px ;
+        left: 5px;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+    }
+    .num2 button{
+        height: 40px;
+        width: 40px;
+        background-color: #505050 ;
+        position: absolute;
+        top: 168px ;
+        left: 47px;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+    }
+    .num3 button{
+        height: 40px;
+        width: 40px;
+        background-color: #505050 ;
+        position: absolute;
+        top: 168px ;
+        left: 88px;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+    }
+    .num0 button{
+        height: 40px;
+        width: 80px;
+        background-color: #505050 ;
+        position: absolute;
+        top: 209px ;
+        left: 5px;
+        border-radius: 40%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+    }
+    .dot button{
+        height: 40px;
+        width: 40px;
+        background-color: #505050 ;
+        position: absolute;
+        top: 209px ;
+        left: 88px;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+    }
+    .equal button{
+        height: 40px;
+        width: 40px;
+        background-color: #ff9500 ;
+        position: absolute;
+        top: 209px ;
+        left: 130px;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+    }
+    .add button{
+        height: 40px;
+        width: 40px;
+        background-color: #ff9500 ;
+        position: absolute;
+        top: 166px ;
+        left: 130px;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+    }
+    .sub button{
+        height: 40px;
+        width: 40px;
+        background-color: #ff9500 ;
+        position: absolute;
+        top: 125px ;
+        left: 130px;
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: sans-serif;
+    }
+    button:hover{
+        background-color:#B7B7B7 ;
+    }
+
+@media only screen and (max-width:480px){
+    body{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-image: url(./HD-wallpaper-gradient-background-gradient-background-blue-lockscreen.jpg);
+    }
+    .container{
+        height: 250px;
+        width: 180px;
+        background-color: #1c1c1c;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10%;
+        position: absolute;
+        justify-content: center;
+        align-items: center ;
+        left: 90px;
+        top: 60px ;
+        font-size: larger;
+    }
+    .heading{
+        position: relative;
+        left: 135px;
+        margin-bottom: 40px;
+        font-family: sans-serif;
+        font-size: larger;
+        color: #E8B86D;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px) {
+    body{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-image: url(./photo-1579548122080-c35fd6820ecb.jpeg)
+    }
+    .container{
+        height: 250px;
+        width: 180px;
+        background-color: #1c1c1c;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10%;
+        position: absolute;
+        justify-content: center;
+        align-items: center ;
+        left: 250px;
+        top: 60px ;
+        font-size: larger;
+    }
+    .heading{
+        position: relative;
+        left: 295px;
+        margin-bottom: 40px;
+        font-family: sans-serif;
+        font-size: larger;
+        color: #E8B86D;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+    body{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-image: url(./images.jpeg );
+        background-repeat:repeat;
+        background-size: cover;
+    }
+    .container{
+        height: 250px;
+        width: 180px;
+        background-color: #1c1c1c;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10%;
+        position: absolute;
+        justify-content: center;
+        align-items: center ;
+        left: 390px;
+        top: 60px ;
+        font-size: larger;
+    }
+    .heading{
+        position: relative;
+        left: 435px;
+        margin-bottom: 40px;
+        font-family: sans-serif;
+        font-size: larger;
+        color: #E8B86D;
+    }
+
+}
+
+
